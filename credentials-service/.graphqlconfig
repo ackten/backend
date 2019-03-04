@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "Events-Backend": {
+      "schemaPath": "schema-events.graphql",
+      "extensions": {
+        "endpoints": {
+          "dev": "https://yzct1qvmzh.execute-api.us-east-1.amazonaws.com/default/events"
+        }
+      }
+    },
+    "Credentials-Backend": {
+      "schemaPath": "schema-credentials.graphql",
+      "extensions": {
+        "endpoints": {
+          "dev": "https://yzct1qvmzh.execute-api.us-east-1.amazonaws.com/default/credentials"
+        }
+      }
+    }
+  }
+}
